@@ -1,0 +1,72 @@
+\documentclass[11pt, twocolumn, nobalancelastpage]{article}
+\usepackage[T1]{fontenc}
+\usepackage{labreport}
+\usepackage[super]{nth}
+\usepackage[toc]{appendix}
+\usepackage{siunitx}
+%\usepackage{times}
+\rhead{}            % report title
+\lhead{Y. Name}
+\title{Title}
+\author{Your Name \\  L2 Laboratory Skills and Electronics}
+\date{\vspace{-0.30cm}Submitted: \today{}; Date of Experiment: 12-11-2020\vspace{-0.7cm}}
+\usepackage[sorting=none,backend=bibtex,style=numeric,doi=false]{biblatex}
+\addbibresource{references.bib}
+
+\begin{document}
+\setlength{\belowdisplayskip}{3pt}
+
+\twocolumn[
+\maketitle
+\begin{onecolabstract}
+Curabitur magna justo, sollicitudin vitae ligula vitae, fringilla ornare est. Proin pharetra lectus eu interdum vehicula. Integer ut iaculis massa. Vivamus ullamcorper tellus nec diam pharetra volutpat. Suspendisse ac varius risus. Nullam scelerisque sem in bibendum tincidunt. Ut vehicula at dui et sodales. 
+\end{onecolabstract}
+]
+\thispagestyle{plain}
+
+\section{Introduction}
+
+
+\section{Methods}
+
+\begin{figure}[H]
+	
+	\centering
+	
+	\includegraphics[width=7.8cm]{filename.png}
+	\caption{Example of inserting an image.  }
+	\label{graph}
+\end{figure}
+
+
+
+\section{Results}
+
+
+
+
+\section{Discussion}
+
+
+
+\section{Conclusions}
+
+
+
+
+\begin{center}
+\printbibliography
+\end{center}
+
+
+\newpage
+\clearpage
+
+\begin{appendices}
+	\setcounter{equation}{0}
+	\section{Error Appendix}
+
+%Error appendix content here
+
+\end{appendices}
+\end{document}
